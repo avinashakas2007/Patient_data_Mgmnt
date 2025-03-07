@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="t">
+        <h1>Medical Data</h1>
+    </div>
+
+    <div class="displayedout">
+        <div class="personal">
+            <h3>Personal Data</h3><br>
+        <label class="headings" for="">Name: </label>
+        <div class="ans"><%= Name %></div>
+        <br>
+        
+        <label for="" class="headings">Date Of Birth: </label>
+        <div class="ans"><%= DateOfBirth %></div>
+        <br>
+
+        <label for="" class="headings">Gender: </label>
+       <div class="ans"> <%= Gender %></div>
+        <br>
+    </div>
+    <div class="emergency">
+        <h3>Emergency Contacts</h3><br>
+        <label for=""class="headings">Emergency Contact 1: </label>
+        <div class="ans"> <%= Emergency1rel %></div>
+        <br>
+        <div class="ans"> <%= EmergencyNumber1 %></div>
+       
+        <br>
+
+        <label for="" class="headings">Emergency Contact 2: </label>
+        <div class="ans"> <%= Emergency2rel %> </div>
+       <br>
+       <div class="ans"> <%= EmergencyNumber2 %> </div>
+        <br>
+        
+    </div>
+    <div class="insurance">
+        <h3>Insurance</h3><br>
+        <label for="" class="headings">Insurance Company Name: </label>
+        <div class="ans"> <%= InsuranceCompany %> </div>
+       
+        <br>
+        <br>
+        <label for="" class="headings">Policy Number: </label>
+        <div class="ans"> <%= PolicyNumber %></div>
+        
+        <br>
+        
+    </div>
+    <div class="medical">
+
+        <h3>Medical Data</h3><br>
+        <label for="" class="headings">Blood Group: </label>
+        <div class="ans"> <%= BloodGroup %></div>
+    
+        <br>
+        <label for="" class="headings">Diabetic: </label>
+        <div class="ans"> <%= BloodPressure %></div>
+<br>
+        <br>
+        <label for="" class="headings">Blood Pressure: </label>
+        <div class="ans"> <%= Diabetic %></div>
+       <br>
+        <br>
+        <label for="" class="headings">Past Illness: </label>
+        <div class="ans"><%= PastIllness %></div>
+        <br>
+        <br>
+        <label for="" class="headings">Surgical History: </label>
+        <div class="ans"><%= SurgeryHistory %></div>
+        <br>
+        <br>
+        <label for="" class="headings">Allergy: </label>
+        <div class="ans"> <%= Allergy %></div>
+       <br>
+        <br>
+        <label for=""class="headings">Date of Updation: </label>
+        <div class="ans"> <%= DateOfUpdate %></div>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
