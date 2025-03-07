@@ -68,7 +68,7 @@ url=mongodb+srv://yourUsername:yourPassword@cluster.mongodb.net/yourDatabase
 ```
 ### 5️⃣ Run the Server
 ```bash
- node server.js
+ node app.js
 ```
 **🚀 The system is now running on `http://localhost:3000/`** 🎯
 
